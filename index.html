@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeuroRehack</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="static/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
@@ -13,12 +13,6 @@
             <div class="logo">
                 <h1>NeuroRehack</h1>
             </div>
-            {# <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </nav> #}
         </div>
     </header>
     <section class="hero">
@@ -43,14 +37,14 @@
                     <a href="https://github.com/NeuroRehack/Desk-Positioning-System" target="_blank">
                         <h4>Desk Positioning System</h4>
                         <p>IOT sensor for standing desk usage  monitoring.</p>
-                        <img src="static\images\desk_positioning_system.gif" alt="Desk Positioning System logo">
+                        <img src="static/images/desk_positioning_system.gif" alt="Desk Positioning System logo">
                     </a>
                 </div>
                 <div class="project-item">
                     <a href="https://github.com/NeuroRehack/WIIBBLE" target="_blank">
                         <h4>WIIBBLE</h4>
                         <p>Repurposes the Wii Balance Board for real-time monitoring and analysis of weight distribution..</p>
-                        <img src="static\images\wiibble.gif" alt="WIIBBLE logo">
+                        <img src="static/images/wiibble.gif" alt="WIIBBLE logo">
                     </a>
                 </div>
             </div>
@@ -59,13 +53,12 @@
 
     <footer>
         <div class="container">
-            {# <p>&copy; 2024 NeuroRehack | The University of Queensland</p> #}
             <p>Follow us on 
                 <a href="https://github.com/NeuroRehack"><i class="fab fa-github"></i></a>
             </p >
         </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+    <script src="static/scripts.js"></script>
 </body>
 </html>
